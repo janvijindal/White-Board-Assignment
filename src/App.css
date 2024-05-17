@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+.drawingBox {
+  display: flex;
+}
+
+.pageNoContainer > button:first-child {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pageNoContainer > button {
+  margin-left: 20px;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
